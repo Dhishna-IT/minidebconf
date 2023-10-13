@@ -16,16 +16,16 @@ const Footer = () => {
             </div>
             <div className="flex flex-col">
               <span className="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2">Sait</span>
-              <span className="my-2"><a href="#" className="text-rose-800 text-md hover:text-rose-600">link 1</a></span>
-              <span className="my-2"><a href="#" className="text-rose-800  text-md hover:text-rose-600">link 1</a></span>
-              <span className="my-2"><a href="#" className="text-rose-800 text-md hover:text-rose-600">link 1</a></span>
+              <span className="my-2"><a href="https://sait-opal.vercel.app/" className="text-rose-800 text-md hover:text-rose-600">Website</a></span>
+              {/* <span className="my-2"><a href="#" className="text-rose-800  text-md hover:text-rose-600">link 1</a></span>
+              <span className="my-2"><a href="#" className="text-rose-800 text-md hover:text-rose-600">link 1</a></span> */}
             </div>
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <span className="font-bold text-gray-700 uppercase mt-4 md:mt-0 mb-2"></span>
               <span className="my-2"><a href="#" className="text-rose-800  text-md hover:text-rose-600">link 1</a></span>
               <span className="my-2"><a href="#" className="text-rose-800  text-md hover:text-rose-600">link 1</a></span>
               <span className="my-2"><a href="#" className="text-rose-800  text-md hover:text-rose-600">link 1</a></span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
                 onClick={toggleMobileMenu}
                 data-collapse-toggle="navbar-solid-bg"
                 type="button"
-                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
                 aria-controls="navbar-solid-bg"
                 aria-expanded={isMobileMenuOpen ? 'true' : 'false'}
             >
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
               </svg>
             </button>
-            <div className={`hidden w-full md:block md:w-auto ${isMobileMenuOpen ? '' : 'hidden'}`} id="navbar-solid-bg">
+            <div className={`w-full md:block md:w-auto ${isMobileMenuOpen ? '' : 'hidden'}`} id="navbar-solid-bg">
               <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0">
                 <li>
                   <a href="#" className="block py-2 pl-3 pr-4 text-white bg-rose-800 rounded md:bg-transparent md:text-rose-800 md:p-0" aria-current="page">Home</a>
